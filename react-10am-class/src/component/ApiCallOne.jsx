@@ -13,7 +13,7 @@ export default function ApiCallOne() {
   }
 
   useEffect(() => {
-    // handlefetch()
+    handlefetch()
     console.log("Ashima");
 
 
@@ -33,7 +33,7 @@ export default function ApiCallOne() {
 
       <div className='prowrap'>
         {data.map((da, i) => (
-          <div>
+          <div key={i}>
             <div className='cardpro'>
               <img src={da.image} height={200} width={200} />
               <h1>{da.title}</h1>

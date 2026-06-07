@@ -11,7 +11,8 @@ import Home from "./component/Home";
 import { BrowserRouter, Link, Routes, Route } from 'react-router-dom';
 import Product from "./component/Product";
 import MovieBook from "./component/MovieBook";
-
+import TestTwo from "./component/TestTwo";
+import Groceries from "./component/groceries";
 
 function App() {
 
@@ -39,7 +40,7 @@ function App() {
 
     <BrowserRouter>
       <div>
-        <h1>Today - { }</h1>
+        {/* <h1>Today - { }</h1> */}
         {/* <TicketBook /> */}
 
         {/* <ApiCallOne />/ */}
@@ -55,9 +56,10 @@ function App() {
         {/* <ApiTwoComp /> */}
 
         {/* <ExampleTwo /> */}
-
-
-        {/* <Link to="/">Home</Link>
+        <Groceries />
+        {/* <TestTwo /> */}
+        {/* <Link to="/
+        ">Home</Link>
         <Link to="/about">About</Link>
         <Link to="/product">Product</Link> */}
 
@@ -73,7 +75,7 @@ function App() {
 
         </Routes> */}
 
-        <MovieBook name="Remo" rating="5" setnames={setnames} />
+        {/* <MovieBook name="Remo" rating="5" setnames={setnames} /> */}
         {/* <MovieBook name="Mangatha" rating="7" setnames={setnames} /> */}
 
       </div>

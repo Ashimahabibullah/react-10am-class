@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 export default function ApiTwoComp() {
 
@@ -14,7 +14,7 @@ export default function ApiTwoComp() {
 
     return (
         <div>
-            {/* <button onClick={handlefetch}>Call Api</button> */}
+            <button onClick={handlefetch}>Call Api</button>
 
             {apidata.map((da, i) => {
                 <div>
